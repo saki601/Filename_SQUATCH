@@ -238,3 +238,5 @@ for k, v in rouge_scores_keyphrases_finetuned.items():
 
 print("\nSample Generated Summary (Fine-tuned):")
 print(generated_summaries_finetuned[0])
+print("\nGenerated Keyphrases:")
+print(generated_keyphrases_finetuned[0])
