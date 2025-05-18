@@ -71,10 +71,3 @@ We use **ROUGE-1**, **ROUGE-2**, and **ROUGE-L** scores from Hugging Face's `eva
 - Google Colab (GPU-enabled environment)
 
 ---
-
-## 🔧 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/pegasus-keyphrase-lora.git
-   cd pegasus-keyphrase-lora
