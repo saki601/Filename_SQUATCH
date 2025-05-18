@@ -52,11 +52,6 @@ Only the attention projection layers are trained, with fewer than 1M parameters 
 - **Per-device batch size**: 4
 - **Gradient accumulation steps**: 8 (simulates batch size of 32)
 - **Mixed precision**: `fp16=True` for reduced memory use and faster training
-- **Evaluation**:
-  - Runs at the end of each epoch
-  - Up to 3 model checkpoints saved
-  - Uses `predict_with_generate=True` for proper ROUGE evaluation
-
 ---
 
 ## 📊 Evaluation Metrics
